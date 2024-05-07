@@ -1,0 +1,169 @@
+
+body {
+  background-color: black !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nike-logo {
+  position: absolute;
+  font-size: 200px;
+  top: 200px;
+  font-weight: 900;
+  letter-spacing: 40px;
+  color: #9ddc28;
+  opacity: 5%;
+}
+
+.mainbox {
+  height: 610px;
+  width: 600px;
+  background-color: #242324;
+  margin-left: 400px;
+  font-style: italic;
+}
+
+.circle-1 {
+  height: 400px;
+  width: 400px;
+  background-color: #9ddc28;
+  float: inline-end;
+  clip-path: circle(61.2% at 86% 16%);
+
+  transition: 0.5s ease-in-out;
+}
+.mainbox:hover .circle-1 {
+  height: 400px;
+  width: 670px;
+  z-index: 3;
+  background-color: #9ddc28;
+
+  transition: 0.5s ease-in-out;
+  clip-path: circle(66.2% at 65% 4%);
+}
+
+.shoes-box {
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  z-index: 4;
+  transition: 0.5s ease-in-out;
+  /* background-color: red; */
+}
+
+.shoes-img-box {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  transition: 0.5s ease-in-out;
+}
+
+.shoes-box:hover .shoes-img-box {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  transition: 0.5s ease-in-out;
+}
+
+.buttn-sec {
+  display: none;
+  margin-top: 30px;
+}
+
+.img-shoes {
+  height: 300px;
+  position: relative;
+  left: 50px;
+
+  transform: rotateY(180deg) rotate(30deg);
+}
+
+.nike-text {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  position: relative;
+  letter-spacing: 2px;
+  top: 10px;
+}
+
+.size-text {
+  display: inline;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.size-btn {
+  height: 35px !important;
+  width: 35px !important;
+  margin-left: 10px;
+  background-color: white !important;
+  color: black !important;
+  border: none !important;
+}
+.size-btn:hover {
+  background-color: blue !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.colr-section {
+  margin-top: 20px;
+}
+
+.buy-now {
+  background-color: white !important;
+  color: black !important;
+  border: none !important;
+  margin-top: 10px;
+  width: 120px !important;
+  height: 45px !important;
+  font-weight: 600 !important;
+  background-color: aliceblue !important;
+}
+
+.buy-now:hover {
+  background-color: blue !important;
+  color: white !important;
+}
+
+.color1 {
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background-color: yellow;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.color2 {
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background-color: green;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.color3 {
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background-color: blue;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.clr-option:hover {
+  border: 2px solid white;
+}
+
+.shoes-box:hover .buttn-sec {
+  display: block;
+}
